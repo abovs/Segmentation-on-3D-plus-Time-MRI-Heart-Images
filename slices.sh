@@ -8,7 +8,7 @@ for ((a=0; a < 18; a++))
 do
 	rm -rf slices_Pat${p[a]}/sistole/
 	rm -rf slices_Pat${p[a]}/diastole/
-	slices=$( head -n 2 ./Pat${p[a]}/img/out001.pgm | cut -d ' ' -f 3 | tail -n 1);	
+	slices=$( head -n 2 ./slices/Pat${p[a]}/img/out001.pgm | cut -d ' ' -f 3 | tail -n 1);	
 	mkdir slices_Pat${p[a]}
 	mkdir slices_Pat${p[a]}/sistole
 	mkdir slices_Pat${p[a]}/diastole

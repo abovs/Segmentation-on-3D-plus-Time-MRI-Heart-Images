@@ -38,7 +38,7 @@ def main():
     patients = []
     slices = []
     for i in p:
-        dir = "./slices_Pat" + i
+        dir = "./slices/slices_Pat" + i
         slices.append(len(os.listdir(dir+ "/sistole")))
         images = []
         for j in range(0, slices[int(i)-1]):
@@ -51,7 +51,7 @@ def main():
     expert1 = []
     slices = []
     for i in p:
-        dir = "./slices_Pat" + i
+        dir = "./slices/slices_Pat" + i
         slices.append(len(os.listdir(dir+ "/sistole")))
         images = []
         for j in range(0, slices[int(i)-1]):

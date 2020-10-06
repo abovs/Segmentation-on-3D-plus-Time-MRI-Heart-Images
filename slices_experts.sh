@@ -22,15 +22,15 @@ do
 	
 	for((b = 0; b < slices; b++))
 	do
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/systole_endocarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert1${b}_endo.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/systole_epicarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert1${b}_epi.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/systole_endocarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert2${b}_endo.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/systole_epicarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert2${b}_epi.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/systole_endocarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert1${b}_endo.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/systole_epicarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert1${b}_epi.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/systole_endocarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert2${b}_endo.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/systole_epicarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_sistole_expert2${b}_epi.pgm
 
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/diastole_endocarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert1${b}_endo.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/diastole_epicarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert1${b}_epi.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/diastole_endocarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert2${b}_endo.pgm
-		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/diastole_epicarde_scaled.pgm ${b} xy slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert2${b}_epi.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/diastole_endocarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert1${b}_endo.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert1/diastole_epicarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert1${b}_epi.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/diastole_endocarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert2${b}_endo.pgm
+		./extractplane ./HeartDatabase/Pat${p[a]}/expert2/diastole_epicarde_scaled.pgm ${b} xy slices/slices_Pat${p[a]}/experts/Pat${p[a]}_diastole_expert2${b}_epi.pgm
 
 
 
