@@ -1,0 +1,4 @@
+11 ; number of 2D+t sequences
+22 ; number of images per 2D+t sequence
+1.77083333333 ; pixel spacing (along x and y axis) of the 2D images
+6 ; thickeness of the 2D images

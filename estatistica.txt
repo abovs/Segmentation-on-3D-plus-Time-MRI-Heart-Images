@@ -1,0 +1,16 @@
+Estatística	mean	std
+TPF	0.833346	0.116908
+FPF	0.006384	0.022021
+Sensibilidade	0.833346	0.116908
+Especificidade	0.993616	0.022021
+Acuracia	0.985165	0.020724
+Preditivo_Positivo	0.928186	0.138780
+Preditivo_Negativo	0.990592	0.006012
+
+
+
+
+
+f_score Expert 1: 0.984205791191
+f_score Expert 2: 0.986123327896
+f_score Mean: 0.98516456

@@ -1,0 +1,3 @@
+Systole = out008.pgm
+resolution (mm) :
+2.08 x 2.08 x 6
